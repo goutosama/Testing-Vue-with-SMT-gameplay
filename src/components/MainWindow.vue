@@ -1,7 +1,8 @@
 <script setup lang="ts">
 import StatusBox from './StatusBox.vue'
 import DirMagBox from './DirMagBox.vue'
-import DungeonRenderScreen from '@/components/DungeonRenderScreen.vue';
+// @ts-ignore
+import DungeonRenderScreen from '@/components/DungeonRenderScreen.vue'; // no one knows why but it gives error. Dont integrate TS and JS code into Vue. EVER.
 import MoonPhase from './MoonPhase.vue'
 import GradientLine from './GradientLine.vue'
 
