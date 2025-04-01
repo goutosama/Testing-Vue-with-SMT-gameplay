@@ -1,14 +1,7 @@
-# vue-test-project
+# Vue-test-project (I remade Shin Megami Tensei if... gameplay menu)
 
-This template should help get you started developing with Vue 3 in Vite.
+### Works, you can move with arrow keys, but all interface is only for showcasing Tailwind CSS.
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
 
 ## Customize configuration
 
