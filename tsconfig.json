@@ -4,6 +4,7 @@
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "allowJs": true,
+    "resolveJsonModule": true,
     "types": ["./shim-vue.d.ts"],
     "noImplicitAny": false
   },

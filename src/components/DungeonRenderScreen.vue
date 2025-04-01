@@ -1,7 +1,7 @@
 <script setup lang="js">
 import { onMounted } from 'vue'
 import Player from '../components/newDungeonRenderer.js'
-import atlasImage from '../assets/crawler/atlas.png'
+//import atlasImage from '../assets/crawler/atlas.png'
 import jsonData from '../assets/crawler/atlas.json'
 
 onMounted(() => {

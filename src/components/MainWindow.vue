@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import StatusBox from './StatusBox.vue'
 import DirMagBox from './DirMagBox.vue'
-import DungeonRenderScreen from './DungeonRenderScreen.vue'
+import DungeonRenderScreen from '@/components/DungeonRenderScreen.vue';
 import MoonPhase from './MoonPhase.vue'
 import GradientLine from './GradientLine.vue'
 
