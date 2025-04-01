@@ -1,12 +1,12 @@
 <script setup lang="js">
 import { onMounted } from 'vue'
 import Player from '../components/newDungeonRenderer.js'
-//import atlasImage from '../assets/crawler/atlas.png'
+import atlasImage from '../assets/crawler/atlas.png'
 import jsonData from '../assets/crawler/atlas.json'
 
 onMounted(() => {
   let atlasImg = document.createElement('img')
-  atlasImg.src = '/src/assets/crawler/atlas.png'
+  atlasImg.src = atlasImage
 
   let canvas = document.getElementById('mainCanvas')
   canvas.width = 224
