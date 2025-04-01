@@ -35,6 +35,11 @@ jobs:
         uses: actions/configure-pages@v5
       - name: npm install
         run: npm install
-      - name: Build and deploy
+      - name: Build
+        id: building
+        run: npm run build
+      - name: Deploy to GitHub Pages
         id: deployment
-        run: ./deploy.sh
+        uses: actions/deploy-pages@v4
+        with: 
+            publish_dir: ./dist 
