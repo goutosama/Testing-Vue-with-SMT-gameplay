@@ -2,7 +2,10 @@
   "compilerOptions": {
     "target": "ES5",
     "strict": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "allowJs": true,
+    "types": ["./shim-vue.d.ts"],
+    "noImplicitAny": false
   },
   "files": [],
   "references": [

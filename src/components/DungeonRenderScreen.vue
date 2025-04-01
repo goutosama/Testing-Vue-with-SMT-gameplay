@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="js">
 import { onMounted } from 'vue'
 import Player from '../components/newDungeonRenderer.js'
 import atlasImage from '../assets/crawler/atlas.png'
@@ -27,6 +27,7 @@ onMounted(() => {
     const player = new Player('renderer', 224, 104, atlasCanvas, jsonData, 5, 4, backgroundColor)
   }
 })
+
 </script>
 
 <template>
@@ -38,11 +39,17 @@ onMounted(() => {
 
 <style lang="css">
 #mainCanvas {
-  image-rendering: optimizeSpeed; /* Older versions of FF */
-  image-rendering: -moz-crisp-edges; /* FF 6.0+ */
-  image-rendering: -webkit-optimize-contrast; /* Safari */
-  image-rendering: -o-crisp-edges; /* OS X & Windows Opera (12.02+) */
-  image-rendering: pixelated; /* Awesome future-browsers */
-  -ms-interpolation-mode: nearest-neighbor; /* IE */
+  image-rendering: optimizeSpeed;
+  /* Older versions of FF */
+  image-rendering: -moz-crisp-edges;
+  /* FF 6.0+ */
+  image-rendering: -webkit-optimize-contrast;
+  /* Safari */
+  image-rendering: -o-crisp-edges;
+  /* OS X & Windows Opera (12.02+) */
+  image-rendering: pixelated;
+  /* Awesome future-browsers */
+  -ms-interpolation-mode: nearest-neighbor;
+  /* IE */
 }
 </style>

@@ -1,9 +1,10 @@
-<script lang="ts"></script>
+<script lang="ts">
+export default {};
+</script>
 
 <template>
   <div
-    class="absolute left-0 top-2 font-megaten text-fontcolor text-2xl border-4 pt-4 p-5 aspect-half bg-uicolor border-uiaccent border-l-uiaccent border-t-uiaccent border-b-black border-r-black"
-  >
+    class="absolute left-0 top-2 font-megaten text-fontcolor text-2xl border-4 pt-4 p-5 aspect-half bg-uicolor border-uiaccent border-l-uiaccent border-t-uiaccent border-b-black border-r-black">
     <div class="flex">
       <div>
         7/8 <br />

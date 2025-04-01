@@ -25,18 +25,13 @@ const hp: number = 12
     <!-- Screen -->
     <div class="flex gap-0 h-46c">
       <div class="w-16/256 bg-uicolor border-uiaccent border-t-4"></div>
-      <DungeonRenderScreen
-        class="border-l-4 border-black-00 border-l-black-500 aspect-battleWindow flex flex-grow"
-      ></DungeonRenderScreen>
+      <DungeonRenderScreen class="border-l-4 border-black-00 border-l-black-500 aspect-battleWindow flex flex-grow">
+      </DungeonRenderScreen>
       <div class="w-16/256 bg-uicolor border-uiaccent border-l-4 border-t-4"></div>
     </div>
     <!-- Lower part -->
-    <div
-      class="grid grid-cols-8-fr-8 grid-rows-20c-70c-fr gap-1 bg-black border-t-4 justify-stretch h-51hc"
-    >
-      <div
-        class="col-start-1 col-end-2 row-start-1 row-end-4 bg-uicolor border-uiaccent border-t-4"
-      ></div>
+    <div class="grid grid-cols-8-fr-8 grid-rows-20c-70c-fr gap-1 bg-black border-t-4 justify-stretch h-51hc">
+      <div class="col-start-1 col-end-2 row-start-1 row-end-4 bg-uicolor border-uiaccent border-t-4"></div>
 
       <div class="bg-uicolor border-uiaccent border-l-4 border-t-4 self-stretch">
         <GradientLine />
@@ -50,9 +45,7 @@ const hp: number = 12
         <StatusBox></StatusBox>
       </div>
       <div class="bg-uicolor border-uiaccent border-l-4 border-t-4"></div>
-      <div
-        class="col-start-3 col-end-4 row-start-1 row-end-4 bg-uicolor border-uiaccent border-l-4 border-t-4"
-      ></div>
+      <div class="col-start-3 col-end-4 row-start-1 row-end-4 bg-uicolor border-uiaccent border-l-4 border-t-4"></div>
     </div>
   </div>
 </template>

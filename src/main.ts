@@ -1,4 +1,5 @@
 import './style.css'
+import '@/assets/fonts/Megaten20XX.woff'
 
 import { createApp } from 'vue'
 import App from './App.vue'
