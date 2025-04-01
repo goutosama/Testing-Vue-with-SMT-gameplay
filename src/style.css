@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Megaten20XX';
+  src: url('../fonts/Megaten20XX.woff');
+}
+
+.dottedcontainer {
+  position: relative;
+}
+
+.dot {
+  margin: 4px;
+  height: 8px;
+  width: 8px;
+  background: linear-gradient(270deg, black 50%, transparent 50%),
+    linear-gradient(180deg, transparent 49%, black 50%), #244930;
+  position: absolute;
+}
+
+.lefttop {
+  top: 0;
+  left: 0;
+}
+
+.leftbottom {
+  bottom: 0;
+  left: 0;
+}
+
+.righttop {
+  right: 0;
+  top: 0;
+}
+
+.rightbottom {
+  right: 0;
+  bottom: 0;
+}
+
+.pixel-perfect {
+  image-rendering: optimizeSpeed; /* Older versions of FF */
+  image-rendering: -moz-crisp-edges; /* FF 6.0+ */
+  image-rendering: -webkit-optimize-contrast; /* Safari */
+  image-rendering: -o-crisp-edges; /* OS X & Windows Opera (12.02+) */
+  image-rendering: pixelated; /* Awesome future-browsers */
+  -ms-interpolation-mode: nearest-neighbor; /* IE */
+}
